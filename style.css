@@ -6,8 +6,13 @@ body {
   margin: 0;
   padding: 0;
   background: pink;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   color: #44464a;
+}
+h1,
+h2,
+h3 {
+  font-family: "Holtwood One SC", serif;
 }
 img {
   width: 100%;
