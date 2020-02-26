@@ -23,8 +23,24 @@ img {
 .card {
   text-align: center;
   background: lightblue;
+  padding: 16px;
 }
 main {
   background: wheat;
   padding: 16px;
+}
+@media (min-width: 700px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    margin-bottom: 16px;
+  }
+}
+@media (min-width: 850px) {
+  .card-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
+  }
 }
